@@ -14,6 +14,6 @@ after_script:
   - git config user.name "woaer"
   - git config user.email "zhangjingkang@qq.com"
   - git add .
-  - git commit -m "update demo"
-  - git push -f "${GH_TOKEN}@https://github.com/woaer/vue-bmob-wilddog-demo.git" master:gh-pages
+  - git commit -m "travis-ci regenerate demo page"
+  - git push -f "https://${GH_TOKEN}@github.com/woaer/vue-bmob-wilddog-demo.git" master:gh-pages
   - echo -e "Done\n"
