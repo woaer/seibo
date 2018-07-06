@@ -9,22 +9,15 @@
 
 ## 编译运行流程
 
-1、下载代码
+1、下载代码、安装依赖。打包工具使用了 [parcel - 快速，零配置的 Web 应用程序打包器](http://www.css88.com/doc/parcel/)
 ```
-git clone git@github.com:CarGuo/GSYGithubAppWeex.git
-```
-
-2、安装 [parcel](http://www.css88.com/doc/parcel/) - 快速，零配置的 Web 应用程序打包器
-```
+git clone https://github.com/woaer/vue-bmob-wilddog-demo.git
+cd vue-bmob-wilddog-demo
 npm install -g parcel-bundler
-```
-
-3、安装依赖
-```
 npm install
 ```
 
-4、项目使用到了 [Bmob 后端云](http://doc.bmob.cn/data/javascript/index.html#sdk)、[野狗通讯云](https://docs.wilddog.com/sync/Web/quickstart.html#2-安装-SDK) 服务，配置文件在 `src/config/index.js` 中。
+2、项目使用到了 [Bmob 后端云](http://doc.bmob.cn/data/javascript/index.html#sdk)、[野狗通讯云](https://docs.wilddog.com/sync/Web/quickstart.html#2-安装-SDK) 服务，配置文件在 `src/config/index.js` 中。
 > 目前工程中包含的配置不定期失效，如有需要，需自行配置相关的服务参数。
 
 3、开发模式
@@ -32,7 +25,7 @@ npm install
 npm run dev
 ```
 
-3、打包
+4、打包。会发布到 `public` 目录下
 ```
 npm run build
 ```
