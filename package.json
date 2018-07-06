@@ -1,0 +1,44 @@
+{
+  "name": "vue-bmob-wilddog-demo",
+  "version": "1.0.0",
+  "description": "a simple and real time message board with vue/bmob/wilddog/moment/parcel",
+  "main": "entry.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/woaer/vue-bmob-wilddog-demo.git"
+  },
+  "keywords": [
+    "vue",
+    "parcel",
+    "bmob",
+    "wilddog",
+    "moment.js"
+  ],
+  "author": "woaer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woaer/vue-bmob-wilddog-demo/issues"
+  },
+  "homepage": "https://github.com/woaer/vue-bmob-wilddog-demo#readme",
+  "scripts": {
+    "dev": "parcel serve index.html --open --out-dir dist --no-cache",
+    "build": "rm -rf public/* && parcel build ./index.html --out-dir public --public-url ./ --no-cache"
+  },
+  "devDependencies": {
+    "babel-plugin-runtime": "^1.0.7",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "@vue/component-compiler-utils": "^1.0.0",
+    "babel-core": "^6.26.0",
+    "vue-template-compiler": "^2.5.16",
+    "page": "^1.8.6",
+    "vue-hot-reload-api": "^2.3.0",
+    "parcel-bundler": "^1.7.1",
+    "strict-uri-encode": "^2.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "vue": "^2.5.16",
+    "wilddog": "^2.5.17"
+  }
+}
