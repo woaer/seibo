@@ -8,6 +8,6 @@ export default {
     apikey: '0b9f54eb6abecf6cdf32441638d3d2e8' // bmob 应用的 REST API Key
   },
   wilddog: {
-    syncURL: 'https://wild-dog-1445.wilddogio.com'
+    syncURL: 'https://wild-dog-1445.wilddogio.com' // 野狗服务节点
   }
 }
