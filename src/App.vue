@@ -10,6 +10,7 @@
       </div>
       <button type="button" class="btn btn-primary" @click="submit">提交</button>
     </div>
+    <div class="alert alert-info">实时消息，可以打开多个窗口查看。</div>
     <ul class="list-group">
       <li class="list-group-item" v-for="item in list">{{ item.name }}<span class="text-muted pull-right">{{ item.createdAt | timeago }}</span></li>
     </ul>
