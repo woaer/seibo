@@ -33,7 +33,7 @@
     "vue-template-compiler": "^2.5.16",
     "page": "^1.8.6",
     "vue-hot-reload-api": "^2.3.0",
-    "parcel-bundler": "^1.7.1",
+    "parcel-bundler": ">=1.10.0",
     "strict-uri-encode": "^2.0.0"
   },
   "dependencies": {
