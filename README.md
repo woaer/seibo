@@ -5,7 +5,7 @@
 
 一个使用 `Vue` `Parcel` `Bmob云数据库` `Wilddog野狗实时引擎` 的构建的简易实时留言板
 
-[在线预览](https://woaer.github.io/vue-bmob-wilddog-demo/)
+[在线预览](https://woaer.github.io/seibo/)
 
 ## 编译运行流程
 
