@@ -1,7 +1,7 @@
 # vue-bmob-wilddog-demo
 
-[![Build Status](https://www.travis-ci.org/woaer/vue-bmob-wilddog-demo.svg?branch=master)](https://www.travis-ci.org/woaer/vue-bmob-wilddog-demo)
-[![](https://img.shields.io/badge/license-MIT-FF0080.svg)](https://github.com/woaer/vue-bmob-wilddog-demo/blob/master/LICENSE)
+[![Build Status](https://www.travis-ci.org/woaer/seibo.svg?branch=master)](https://www.travis-ci.org/woaer/seibo)
+[![](https://img.shields.io/badge/license-MIT-FF0080.svg)](https://github.com/woaer/seibo/blob/master/LICENSE)
 
 一个使用 `Vue` `Parcel` `Bmob云数据库` `Wilddog野狗实时引擎` 的构建的简易实时留言板
 
@@ -11,8 +11,8 @@
 
 1、下载代码、安装依赖。打包工具使用了 [parcel - 快速，零配置的 Web 应用程序打包器](http://www.css88.com/doc/parcel/)
 ```
-git clone https://github.com/woaer/vue-bmob-wilddog-demo.git
-cd vue-bmob-wilddog-demo
+git clone https://github.com/woaer/seibo.git
+cd seibo
 npm install -g parcel-bundler
 npm install
 ```
