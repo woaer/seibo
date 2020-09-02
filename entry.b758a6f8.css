@@ -1,0 +1,11 @@
+
+.form[data-v-f5cd8b]{display:flex;flex-direction:column;margin:20px 0
+}
+.form-group[data-v-f5cd8b],.form .tip[data-v-f5cd8b]{margin-bottom:5px
+}
+.form .tip[data-v-f5cd8b]{text-align:right
+}
+.loading[data-v-f5cd8b]{position:fixed;top:50%;left:50%
+}
+.loading img[data-v-f5cd8b]{width:80px;transform:translate(-50%,-50%)
+}
