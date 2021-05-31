@@ -3,6 +3,8 @@
 [![Build Status](https://www.travis-ci.org/woaer/seibo.svg?branch=master)](https://www.travis-ci.org/woaer/seibo)
 [![](https://img.shields.io/badge/license-MIT-FF0080.svg)](https://github.com/woaer/seibo/blob/master/LICENSE)
 
+> Wilddog野狗实时引擎停止服务，本项目结束维护。
+
 一个使用 `Vue` `Parcel` `Bmob云数据库` `Wilddog野狗实时引擎` 的构建的简易实时留言板
 
 [在线预览](https://woaer.github.io/seibo/)
