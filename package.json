@@ -37,7 +37,7 @@
     "strict-uri-encode": "^2.0.0"
   },
   "dependencies": {
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "vue": "^2.5.16",
     "wilddog": "^2.5.17"
   }
